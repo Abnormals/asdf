@@ -1,0 +1,27 @@
+command /tutorial:
+    trigger:
+        hide player from all players
+        hide players from player
+    trigger:
+        message "                                                                       "
+        message "                                     &a&oHello!"
+        message "  &7Welcome to &c&lZONES&7! &7We hope you enjoy your mining experience!"
+        message "     &7You can end this tutorial any time by doing &c/endtutorial&7!"
+        message "                                                                       "
+        message "   &7Throughout this tutorial, you will learn more about the mechanics"
+        message "     &7of the server and specific commands and perks you can access."
+        message "  &7First, we will learn about how can start progressing through the"
+        message "                          &7first mine. Have fun!"
+        message "                                                                       "
+        wait 12 seconds
+        teleport player to location at 109.514, 112, 478.421 in world "world"
+        wait 0.25 seconds
+        message "   &7This is where you start your adventure! You are given a special pick"
+        message "&7that &cYOU &7and only you will yield. You can try right clicking the pickaxe"
+        message " &7to access awesome custom enchants that will help you along your"
+        message "                                  &7journey."
+        message "                                                                       "
+        message " &7This is also the first mine you will be able to access. At certain"
+        message " &cprestiges&7 (10, 20, 30, etc.) you can access more mines and have"
+        message "                &7the capability to obtain more enchants."
+        message "                                                                       "
